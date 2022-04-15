@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital@1&family=Bellefair&family=Merriweather:ital,wght@1,300&family=Montserrat&family=Sacramento&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../images/destination/background-destination-desktop.jpg");
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
+
+}
+
+.line{
+    background-color: #D0D6F9;
+    height: .5px;
+    width: 430px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0 0 55px ;
+}
+
+.nav-logo{
+    width: 48px;
+    height: 48px;
+}
+.nav-pages{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px 0px 75px;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(81.5485px);
+}
+
+.nav-item{
+    list-style-type: none;
+    margin: 0 48px;
+    padding: 39px 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: rgb(207, 211, 214);
+}
+
+.nav-item-num{
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+/* ............................................ */
+
+.main{
+    width: 400px;
+    height: 382px;
+    position: absolute;
+    top: 270px;
+    right: 165px;
+}
+
+.main-destinations{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.destination-link{
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 2.7px;
+    color: #D0D6F9;
+    /* color: #FFFFFF; */
+    /* font-family: 'Barlow Condensed'; */
+    /* font-weight: 400; */
+    /* line-height: 19px; */
+    
+    
+}
+
+.destination-item{
+    font-size: 15px;
+    list-style-type: none;
+    margin: 0 35px 0 0px;
+    height: 19px;
+    /* MOON */
+
+/* position: absolute;
+left: 0.18%;
+right: 86.16%;
+top: calc(50% - 19px/2 - 7.5px); */
+
+
+
+}
+
+.main h2{
+    color: #fff;
+    font-family: 'Bellefair', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 172px;
+}
+
+.main-info{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+    margin: 0 11px 0 0; 
+}
+/* .................... */
+
+hr{
+    margin: 36px 0 20px;
+}
+.stats{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin: 20px  0 0;
+    /* justify-content: space-around; */
+}
+
+.distance{
+    margin-right: 60px;
+}
+
+.stats-head{
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.stats-value{
+    font-size: 28px;
+}
+
+/* ............ */
+ 
+.main-image{
+    position: absolute;
+    top: 310px;
+    left: 300px;
+}
+.moon-image{
+    width: 350px;
+}
